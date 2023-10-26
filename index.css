@@ -1,5 +1,37 @@
 
 
-.bluetext {
-    color: blue;
+.hometext {
+    color:navy;
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.hometext2 {
+    color: navy;
+    font-size: small;
+    text-align:center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+} 
+
+.navbar {
+    display:block;
+    width:fit-content;
+    height:fit-content;
+    padding: 20px;
+    margin:auto;
+    justify-content: center;
+    align-items: center;
+    border: 3px navy solid;
+    text-align:center
+
+}
+
+[class*="navpage"] {
+    padding: 7px;
+}
+
+.navbar>div>a {
+    text-decoration: none;
+    color: lightcoral;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }

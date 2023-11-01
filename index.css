@@ -1,13 +1,13 @@
 
 
 .hometext {
-    color:navy;
+    color: lightsteelblue;
     text-align: center;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .hometext2 {
-    color: navy;
+    color: lightsteelblue;
     font-size: small;
     text-align:center;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -21,9 +21,14 @@
     margin:auto;
     justify-content: center;
     align-items: center;
-    border: 3px navy solid;
-    text-align:center
+    border: 3px lightsteelblue solid;
+    text-align:center;
 
+}
+
+.hometext3 {
+    color: lightsteelblue;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
 [class*="navpage"] {
@@ -32,6 +37,11 @@
 
 .navbar>div>a {
     text-decoration: none;
-    color: lightcoral;
+    color: whitesmoke;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
+.ocean_header {
+    background-image:url("./TPImages/tropical.png")
+}
+

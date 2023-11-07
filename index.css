@@ -39,9 +39,22 @@
     text-decoration: none;
     color: whitesmoke;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-shadow:inset;
+    margin: 0 -.25rem;
+    padding: 0 .25rem;
+    transition: color .3s ease-in-out;
+    box-shadow: .3s ease-in-out;
 }
 
 .ocean_header {
     background-image:url("./TPImages/tropical.png")
+}
+
+.rollover_content {
+    box-shadow:inset;
+    color: blue;
+    margin: 0 -.25rem;
+    padding: 0 .25rem;
+    transition: color .3s ease-in-out;
 }
 

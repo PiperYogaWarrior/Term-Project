@@ -50,11 +50,18 @@
     background-image:url("./TPImages/tropical.png")
 }
 
-.rollover_content {
-    box-shadow:inset;
-    color: blue;
-    margin: 0 -.25rem;
-    padding: 0 .25rem;
-    transition: color .3s ease-in-out;
+.rollover_content a {
+  box-shadow: inset 0 0 0 0 lightsteelblue;
+  color: white;
+  margin: 0 -.25rem;
+  padding: 0 .25rem;
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-decoration: none;
 }
+.rollover_content a:hover {
+  box-shadow: inset 200px 0 0 0 lightsteelblue;
+  color: white;
+}
+
 

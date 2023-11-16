@@ -1,0 +1,43 @@
+.background {
+    background-color: lightsteelblue;
+}
+
+.import-text-head {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:royalblue;
+}
+
+.import-text-para {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: steelblue;
+    font-size: large;
+}
+
+
+.left-side {
+    float: left;
+    width: 250px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 3px midnightblue solid;
+}
+
+.right-side {
+    float: right;
+    width: 300px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 3px midnightblue solid;
+}
+
+.center-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    border: 3px midnightblue solid;
+}
